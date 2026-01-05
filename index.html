@@ -4,18 +4,9 @@
     <title>Simple Text Editor</title>
     <style>
         #editor { border: 1px solid #ccc; min-height: 200px; padding: 10px; font-family: Arial, sans-serif; }
-        .toolbar button { margin: 5px; padding: 8px 12px; }
     </style>
 </head>
 <body>
-    <div class="toolbar">
-        <button onclick="format('bold')">Bold</button>
-        <button onclick="format('italic')">Italic</button>
-        <button onclick="format('underline')">Underline</button>
-        <button onclick="format('justifyLeft')">Align Left</button>
-        <button onclick="format('justifyCenter')">Align Center</button>
-        <button onclick="format('insertUnorderedList')">Bullet List</button>
-    </div>
     <div id="editor" contenteditable="true" placeholder="Start typing..."></div>
     <script src="script.js"></script>
 </body>
